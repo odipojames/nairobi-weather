@@ -1,6 +1,6 @@
 # Nairobi Weather App
 
-This project was can be accessed via live lin `https://odipojames.github.io/nairobi-weather/`
+This project was can be accessed via live lin [nairobi-weather](https://odipojames.github.io/nairobi-weather/)
 
 ## How to run Locally
 clone and create .env files in root directory
