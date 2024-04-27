@@ -1,17 +1,22 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import { createRoot } from 'react-dom/client';
+import { IntlProvider } from 'react-intl';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './index.css';
+import messages_en from './locales/en.json'; // Import English messages
+import messages_sw from './locales/sw.json'; // Import Swahili messages
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
+// Determine the user's preferred language (e.g., from user settings or browser locale)
+const userLanguage = 'en'; // Default to English for demonstration purposes
+
+// Define messages object based on the user's preferred language
+const messages = {
+  en: messages_en,
+  sw: messages_sw,
+};
+
+createRoot(document.getElementById('root')).render(
+  <IntlProvider locale={userLanguage} messages={messages[userLanguage]}>
     <App />
-  </React.StrictMode>
+  </IntlProvider>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

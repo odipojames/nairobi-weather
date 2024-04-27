@@ -1,0 +1,33 @@
+.weather-display {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the content */
+  }
+  
+  .weather-display h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .weather-display p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  /* Apply responsive styles for small screens */
+  @media screen and (max-width: 600px) {
+    .weather-display {
+      padding: 10px;
+    }
+    
+    .weather-display h2 {
+      font-size: 20px;
+    }
+    
+    .weather-display p {
+      font-size: 14px;
+    }
+  }
+  

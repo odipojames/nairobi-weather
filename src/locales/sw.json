@@ -1,0 +1,19 @@
+{
+    "temperature": "Joto",
+    "weather": "Hali ya Hewa",
+    "language": "Lugha",
+    "current": "sasa",
+    "welcomeMessage": "Karibu!",
+    "swtchLanguage": "Badilisha Lugha",
+    "currentLanguage":"Lugha ya sasa",
+    "error":"Kosa",
+    "fetchWeatherError": "Imeshindwa kupata data ya hali ya hewa",
+    "dashboard":"Dashibodi ya hali ya hewa",
+    "Clouds": " Mawingu",
+    "Rain": "Mvua",
+    "Snow": "Kujua",
+    "Thunderstorm": "Mvua ya dhoruba",
+    "Drizzle": "Drizzle",
+    "Sunrise": "Jua la jua",
+    "Clear": "Wazi"
+  }

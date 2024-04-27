@@ -1,0 +1,21 @@
+{
+    "temperature": "Temperature",
+    "weather": "Weather",
+    "language": "Language",
+    "swtchLanguage": "Switch Language",
+    "welcomeMessage": "Welcome!",
+    "currentLanguage": "Current Language",
+    "error": "Error",
+    "fetchWeatherError": "Failed to fetch weather data",
+    "dashboard": "Weather Dashboard",
+    "Clouds": " Clouds",
+    "Rain": "Rain",
+    "Snow": "Snow",
+    "Thunderstorm": "Thunderstorm",
+    "Drizzle": "Drizzle",
+    "Sunrise": "Sunrise",
+    "Clear": "Clear"
+
+    
+  }
+  
