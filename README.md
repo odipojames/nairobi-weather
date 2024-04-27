@@ -1,6 +1,6 @@
 # Nairobi Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was can be accessed via live lin `https://odipojames.github.io/nairobi-weather/`
 
 ## How to run Locally
 clone and create .env files in root directory
