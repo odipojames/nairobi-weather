@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nairobi-weather/static/css/main.d2a211bb.css",
+    "main.js": "/nairobi-weather/static/js/main.0aa6f18e.js",
+    "index.html": "/nairobi-weather/index.html",
+    "main.d2a211bb.css.map": "/nairobi-weather/static/css/main.d2a211bb.css.map",
+    "main.0aa6f18e.js.map": "/nairobi-weather/static/js/main.0aa6f18e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2a211bb.css",
+    "static/js/main.0aa6f18e.js"
+  ]
+}
